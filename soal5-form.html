@@ -15,6 +15,7 @@
       <br />
       <div style="text-align: left">
         <label>Hobi:</label>
+        <!-- (div>input+label)*3 -->
         <div>
           <input type="checkbox" id="hobi1" name="hobi" value="Membaca" />
           <label for="hobi1">Membaca</label>
@@ -31,27 +32,18 @@
       <br />
 
       <label>Jenis Kelamin:</label>
+      <!-- (div>input+label)*2 -->
       <div>
-        <input
-          type="radio"
-          id="laki"
-          name="jenis_kelamin"
-          value="Laki-laki"
-          required
-        />
-        <label for="laki">Laki-laki</label>
+        <input type="radio" id="lk" name="jk" value="Laki-laki" required />
+        <label for="lk">Laki-laki</label>
       </div>
       <div>
-        <input
-          type="radio"
-          id="perempuan"
-          name="jenis_kelamin"
-          value="Perempuan"
-        />
-        <label for="perempuan">Perempuan</label>
+        <input type="radio" id="pr" name="pr" value="Perempuan" />
+        <label for="pr">Perempuan</label>
       </div>
       <br />
 
+      <!-- label+select>option*4 -->
       <label for="kota">Kota:</label>
       <select id="kota" name="kota" required>
         <option value="" disabled selected>Pilih kota...</option>
