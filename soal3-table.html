@@ -1,0 +1,53 @@
+<!-- !-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Daftar Nilai
+      </caption>
+      <colgroup>
+        <col span="1" style="background-color: azure" />
+        <col span="1" style="background-color: green" />
+        <col span="1" style="background-color: gray" />
+      </colgroup>
+      <!-- thead>tr>th*3 -->
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Nilai</th>
+        </tr>
+      </thead>
+      <!-- tbody>(tr>th*3)*3 -->
+      <tbody>
+        <tr>
+          <th>1</th>
+          <th>Budi</th>
+          <th>90</th>
+        </tr>
+        <tr>
+          <th>2</th>
+          <th>Andi</th>
+          <th>89</th>
+        </tr>
+        <tr>
+          <th>3</th>
+          <th>Dika</th>
+          <th>85</th>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Rata-rata Nilai</td>
+          <td style="text-align: center">88</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
